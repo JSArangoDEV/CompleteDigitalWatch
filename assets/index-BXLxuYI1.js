@@ -51,9 +51,7 @@ Error generating stack: `+o.message+`
           display: flex;
           justify-content: center;
           align-items: center;`}),document.querySelectorAll("span").forEach(z=>{z.style=`
-          display: flex;
-          justify-content: center;
-          align-items: center;`})}else if(h.code==="ArrowLeft"){const p=document.body;p.style=`
+          text-align: center;`})}else if(h.code==="ArrowLeft"){const p=document.body;p.style=`
           display: flex;
           justify-content: start;
           align-items: center;
@@ -68,9 +66,7 @@ Error generating stack: `+o.message+`
           display: flex;
           justify-content: start;
           align-items: start;`}),document.querySelectorAll("span").forEach(z=>{z.style=`
-          display: flex;
-          justify-content: start;
-          align-items: start;`})}else if(h.code==="ArrowRight"){const p=document.body;p.style=`
+          text-align: start;`})}else if(h.code==="ArrowRight"){const p=document.body;p.style=`
           display: flex;
           justify-content: end;
           align-items: center;
@@ -85,6 +81,4 @@ Error generating stack: `+o.message+`
           display: flex;
           justify-content: end;
           align-items: end;`}),document.querySelectorAll("span").forEach(z=>{z.style=`
-          display: flex;
-          justify-content: end;
-          align-items: end;`})}};return window.addEventListener("keydown",c),()=>window.removeEventListener("keydown",c)},[]);const s=c=>{const h=c.target.value;r(h);const p=parseInt(h.slice(1),16),m=p>>16&255,g=p>>8&255,w=p>>0&255,z=m*.299+g*.587+w*.114>186?"#111111":"#ffffff";o(z)};return Ie.useEffect(()=>{const c=document.body;c.style.backgroundColor=t,document.querySelectorAll("span").forEach(p=>{p.style.color=l})}),D.jsxs("main",{children:[D.jsxs("figure",{className:"colorchange",children:[D.jsx("span",{children:"* Cambiar paleta de colores"}),D.jsx("input",{type:"color",value:t,onChange:s})]}),D.jsxs("figure",{className:"date",children:[D.jsxs("div",{className:"num",children:[D.jsx("span",{className:"d",children:e.day}),D.jsx("span",{children:"/"}),D.jsx("span",{className:"m",children:e.month}),D.jsx("span",{children:"/"}),D.jsx("span",{className:"y",children:e.year})]}),D.jsx("div",{className:"text",children:D.jsxs("span",{children:[e.textweekday," ",e.day," de ",e.textmonth]})})]}),D.jsxs("figure",{className:"clock",children:[D.jsx("span",{className:"h",children:e.hours}),D.jsx("span",{children:":"}),D.jsx("span",{className:"m",children:e.minutes}),D.jsx("span",{children:":"}),D.jsx("span",{className:"s",children:e.seconds}),i&&D.jsxs(D.Fragment,{children:[D.jsx("span",{children:"."}),D.jsx("span",{className:"ms",children:e.miliseconds})]})]}),D.jsx("figure",{className:"yearpercentage",children:D.jsxs("span",{children:["Ha pasado el ",e.yearpercentage,"% del año"]})})]})}ec(document.getElementById("root")).render(D.jsx(Ie.StrictMode,{children:D.jsx(Ld,{})}));
+          text-align: end;`})}};return window.addEventListener("keydown",c),()=>window.removeEventListener("keydown",c)},[]);const s=c=>{const h=c.target.value;r(h);const p=parseInt(h.slice(1),16),m=p>>16&255,g=p>>8&255,w=p>>0&255,z=m*.299+g*.587+w*.114>186?"#111111":"#ffffff";o(z)};return Ie.useEffect(()=>{const c=document.body;c.style.backgroundColor=t,document.querySelectorAll("span").forEach(p=>{p.style.color=l})}),D.jsxs("main",{children:[D.jsxs("figure",{className:"colorchange",children:[D.jsx("span",{children:"* Cambiar paleta de colores"}),D.jsx("input",{type:"color",value:t,onChange:s})]}),D.jsxs("figure",{className:"date",children:[D.jsxs("div",{className:"num",children:[D.jsx("span",{className:"d",children:e.day}),D.jsx("span",{children:"/"}),D.jsx("span",{className:"m",children:e.month}),D.jsx("span",{children:"/"}),D.jsx("span",{className:"y",children:e.year})]}),D.jsx("div",{className:"text",children:D.jsxs("span",{children:[e.textweekday," ",e.day," de ",e.textmonth]})})]}),D.jsxs("figure",{className:"clock",children:[D.jsx("span",{className:"h",children:e.hours}),D.jsx("span",{children:":"}),D.jsx("span",{className:"m",children:e.minutes}),D.jsx("span",{children:":"}),D.jsx("span",{className:"s",children:e.seconds}),i&&D.jsxs(D.Fragment,{children:[D.jsx("span",{children:"."}),D.jsx("span",{className:"ms",children:e.miliseconds})]})]}),D.jsx("figure",{className:"yearpercentage",children:D.jsxs("span",{children:["Ha pasado el ",e.yearpercentage,"% del año"]})})]})}ec(document.getElementById("root")).render(D.jsx(Ie.StrictMode,{children:D.jsx(Ld,{})}));
